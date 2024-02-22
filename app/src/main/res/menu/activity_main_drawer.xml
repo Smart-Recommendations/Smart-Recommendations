@@ -16,5 +16,9 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_towatch"
+            android:icon="@drawable/baseline_local_movies_24"
+            android:title="@string/menu_towatch" />
     </group>
 </menu>

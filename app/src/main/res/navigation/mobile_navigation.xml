@@ -13,15 +13,15 @@
 
     <fragment
         android:id="@+id/nav_user"
-        android:name="com.example.smartrecommendations.ui.gallery.GalleryFragment"
+        android:name="com.example.smartrecommendations.ui.user.UserFragment"
         android:label="@string/menu_user"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_user" />
 
     <fragment
         android:id="@+id/nav_settings"
-        android:name="com.example.smartrecommendations.ui.slideshow.SlideshowFragment"
+        android:name="com.example.smartrecommendations.ui.settings.SettingsFragment"
         android:label="@string/menu_settings"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/nav_towatch"
         android:name="com.example.smartrecommendations.ui.towatch.TowatchFragment"

@@ -1,3 +1,5 @@
+package com.example.smartrecommendations;
+
 import java.util.Objects;
 
 /**
@@ -10,7 +12,7 @@ public class Entry {
     private boolean rating;
 
     /**
-     * Constructor to initialize an Entry object with provided title, watched status, and rating.
+     * Constructor to initialize an com.example.smartrecommendations.Entry object with provided title, watched status, and rating.
      * @param title The title of the entry.
      * @param watched The watched status of the entry (true if watched, false otherwise).
      * @param rating The rating of the entry (true if rated, false otherwise).
@@ -70,8 +72,8 @@ public class Entry {
     }
 
     /**
-     * Returns a CSV representation of the Entry object.
-     * @return A CSV string representing the Entry object.
+     * Returns a CSV representation of the com.example.smartrecommendations.Entry object.
+     * @return A CSV string representing the com.example.smartrecommendations.Entry object.
      */
     @Override
     public String toString() {

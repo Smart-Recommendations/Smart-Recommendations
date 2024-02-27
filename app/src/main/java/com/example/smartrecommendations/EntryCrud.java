@@ -1,3 +1,7 @@
+package com.example.smartrecommendations;
+
+import com.example.smartrecommendations.Entry;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -60,7 +64,7 @@ public class EntryCrud {
                 }
             }
         }
-        return false; // Entry with specified title not found
+        return false; // com.example.smartrecommendations.Entry with specified title not found
     }
 
     // Delete operation
@@ -80,7 +84,7 @@ public class EntryCrud {
                 }
             }
         }
-        return false; // Entry with specified title not found
+        return false; // com.example.smartrecommendations.Entry with specified title not found
     }
 
     // Helper method to update the CSV file with a list of entries
@@ -98,12 +102,12 @@ public class EntryCrud {
         }
     }
 
-    // Helper method to convert Entry object to CSV format
+    // Helper method to convert com.example.smartrecommendations.Entry object to CSV format
     private String entryToCSV(Entry entry) {
         return entry.getTitle() + "," + entry.getWatched() + "," + entry.getRating();
     }
 
-    // Helper method to parse CSV line to Entry object
+    // Helper method to parse CSV line to com.example.smartrecommendations.Entry object
     private Entry parseCSVToEntry(String line) {
         String[] parts = line.split(",");
         String title = parts[0];

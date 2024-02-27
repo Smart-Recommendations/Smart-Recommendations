@@ -1,3 +1,6 @@
+package com.example.smartrecommendations;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -10,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import android.os.Build;
 
 import androidx.annotation.RequiresApi;
-
 public class EntryCrudTest {
 
     @RequiresApi(api = Build.VERSION_CODES.O)
@@ -19,7 +21,7 @@ public class EntryCrudTest {
         // Create a temporary CSV file for testing
         Path tempFile = Files.createTempFile("test", ".csv");
 
-        // Create an EntryCrud object with the temporary CSV file path
+        // Create an com.example.smartrecommendations.EntryCrud object with the temporary CSV file path
         EntryCrud entryCrud = new EntryCrud(tempFile.toString());
 
         // Create some sample entries
@@ -33,25 +35,25 @@ public class EntryCrudTest {
         // Get all entries and verify they are added correctly
         List<Entry> entries = entryCrud.getAllEntries();
         assertEquals(2, entries.size());
-        assertEquals(entry1, entries.get(0));
-        assertEquals(entry2, entries.get(1));
+        Assertions.assertEquals(entry1, entries.get(0));
+        Assertions.assertEquals(entry2, entries.get(1));
 
         // Update an entry
         Entry updatedEntry = new Entry("Updated Movie 1", false, true);
-        assertTrue(entryCrud.updateEntry("Movie 1", updatedEntry));
+        Assertions.assertTrue(entryCrud.updateEntry("Movie 1", updatedEntry));
 
         // Verify the entry is updated correctly
         entries = entryCrud.getAllEntries();
         assertEquals(2, entries.size());
-        assertEquals(updatedEntry, entries.get(0));
+        Assertions.assertEquals(updatedEntry, entries.get(0));
 
         // Delete an entry
-        assertTrue(entryCrud.deleteEntry("Updated Movie 1"));
+        Assertions.assertTrue(entryCrud.deleteEntry("Updated Movie 1"));
 
         // Verify the entry is deleted correctly
         entries = entryCrud.getAllEntries();
         assertEquals(1, entries.size());
-        assertEquals(entry2, entries.get(0));
+        Assertions.assertEquals(entry2, entries.get(0));
 
         // Cleanup: Delete the temporary CSV file
         Files.deleteIfExists(tempFile);

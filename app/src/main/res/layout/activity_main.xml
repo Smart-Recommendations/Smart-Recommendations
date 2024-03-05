@@ -8,6 +8,19 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        tools:layout_editor_absoluteX="154dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <include
         android:id="@+id/app_bar_main"
         layout="@layout/app_bar_main"

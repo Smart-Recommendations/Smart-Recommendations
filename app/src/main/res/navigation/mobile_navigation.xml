@@ -22,9 +22,4 @@
         android:name="com.example.smartrecommendations.ui.settings.SettingsFragment"
         android:label="@string/menu_settings"
         tools:layout="@layout/fragment_settings" />
-    <fragment
-        android:id="@+id/nav_towatch"
-        android:name="com.example.smartrecommendations.ui.towatch.TowatchFragment"
-        android:label="@string/menu_towatch"
-        tools:layout="@layout/fragment_towatch" />
 </navigation>

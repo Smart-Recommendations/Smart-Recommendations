@@ -1,4 +1,4 @@
-package com.example.smartrecommendations.ui.watched;
+package com.example.smartrecommendations.ui.towatch;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.example.smartrecommendations.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link WatchedFragment#newInstance} factory method to
+ * Use the {@link ToWatchFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class WatchedFragment extends Fragment {
+public class ToWatchFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class WatchedFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public WatchedFragment() {
+    public ToWatchFragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class WatchedFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment WatchedFragment.
+     * @return A new instance of fragment ToWatchFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static WatchedFragment newInstance(String param1, String param2) {
-        WatchedFragment fragment = new WatchedFragment();
+    public static ToWatchFragment newInstance(String param1, String param2) {
+        ToWatchFragment fragment = new ToWatchFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class WatchedFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_watched, container, false);
+        return inflater.inflate(R.layout.fragment_to_watch, container, false);
     }
 }

@@ -16,9 +16,5 @@
             android:id="@+id/nav_settings"
             android:icon="@drawable/settingsicon"
             android:title="@string/menu_settings" />
-        <item
-            android:id="@+id/nav_towatch"
-            android:icon="@drawable/baseline_local_movies_24"
-            android:title="@string/menu_towatch" />
     </group>
 </menu>

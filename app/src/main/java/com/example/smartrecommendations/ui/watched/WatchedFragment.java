@@ -1,0 +1,37 @@
+package com.example.smartrecommendations.ui.watched;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
+
+import com.example.smartrecommendations.databinding.FragmentWatchedBinding;
+
+public class WatchedFragment extends Fragment {
+
+    private FragmentWatchedBinding binding;
+
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             ViewGroup container, Bundle savedInstanceState) {
+        WatchedViewModel WatchedViewModel =
+                new ViewModelProvider(this).get(WatchedViewModel.class);
+
+        binding = FragmentWatchedBinding.inflate(inflater, container, false);
+        View root = binding.getRoot();
+
+        final TextView textView = binding.textWatched;
+        WatchedViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        return root;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
+    }
+}

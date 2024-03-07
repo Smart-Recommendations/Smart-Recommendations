@@ -13,6 +13,8 @@ An app that enables users to receive entertainment recommendations based on movi
 1. Add shows you have watched in the past and shows you want to watch.
 2. The app will send a prompt to an LLM to find media you might like to watch.
 
+   
+________________________________________________________________________________________________
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 

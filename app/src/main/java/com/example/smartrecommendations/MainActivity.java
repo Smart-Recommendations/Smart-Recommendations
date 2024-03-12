@@ -5,7 +5,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.smartrecommendations.ui.home.HomeFragment;
 import com.example.smartrecommendations.ui.recommendations.RecommendationsFragment;
 import com.example.smartrecommendations.ui.settings.SettingsFragment;
 import com.example.smartrecommendations.ui.towatch.ToWatchFragment;
@@ -71,12 +70,12 @@ public class MainActivity extends AppCompatActivity implements
                     openFragment(new WatchedFragment());
                     return true;
                 }
-                return true;
+                return false;
             }
         });
 
         fragmentManager = getSupportFragmentManager();
-        openFragment(new HomeFragment());
+        openFragment(new RecommendationsFragment());
 
         /*
         fab.setOnClickListener(new View.OnClickListener() {
@@ -91,10 +90,7 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int itemId = item.getItemId();
-        if (itemId == R.id.nav_home) {
-            openFragment(new HomeFragment());
-        }
-        else if (itemId == R.id.nav_settings) {
+        if (itemId == R.id.nav_settings) {
             openFragment(new SettingsFragment());
         }
         else if (itemId == R.id.nav_user) {

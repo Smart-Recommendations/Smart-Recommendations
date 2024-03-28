@@ -16,7 +16,7 @@
 
 
     <string name="menu_towatch">To Watch</string>
-    <string name="enter_movie_or_show_hint">Enter Movie or Show</string>
+    <string name="enter_movie_or_show_hint">Enter Name of Media</string>
     <string name="add_button_text">Add</string>
     <string name="editText_movie_description">Enter the name of the movie or show</string>
     <string name="button_add_description">Add movie or show to the list</string>

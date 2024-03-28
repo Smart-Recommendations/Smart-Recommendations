@@ -20,6 +20,8 @@
     <string name="add_button_text">Add</string>
     <string name="editText_movie_description">Enter the name of the movie or show</string>
     <string name="button_add_description">Add movie or show to the list</string>
-
+    <string name="todo">Would you like to</string>
+    <string name="movetowatch">Move to watch?</string>
+    <string name="delete">Delete?</string>
 
 </resources>

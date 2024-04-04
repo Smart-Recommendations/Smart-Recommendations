@@ -59,7 +59,7 @@ public class ToWatchFragment extends Fragment {
         listView.setOnItemClickListener((parent, view1, position, id) -> {
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             builder.setMessage(R.string.todo);
-            builder.setPositiveButton(R.string.movetowatch, new DialogInterface.OnClickListener() {
+            builder.setPositiveButton(R.string.movetowatched, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
 

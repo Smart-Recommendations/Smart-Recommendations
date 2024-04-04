@@ -22,6 +22,7 @@
     <string name="button_add_description">Add movie or show to the list</string>
     <string name="todo">Would you like to</string>
     <string name="movetowatch">Move to watch?</string>
+    <string name="movetowatched">Move to watched?</string>
     <string name="delete">Delete?</string>
 
 </resources>

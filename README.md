@@ -5,7 +5,7 @@
 An app for Android that enables users to receive entertainment recommendations based on movies or shows they've liked or disliked, those they want to watch, or specific filtering criteria indicating disinterest, thereby providing predictive personality-based preferences for entertainment.
 
 ## Installation
-1. URL to 'Official Download' -> [apk](https://github.com/Smart-Recommendations/Smart-Recommendations/releases/tag/v0.0.1) 
+1. URL to 'Official Download' -> [apk](https://github.com/Smart-Recommendations/Smart-Recommendations/releases/tag/v0.0.2) 
    
 ## How to Use
 1. Add shows you have watched in the past and shows you want to watch.

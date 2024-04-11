@@ -1,0 +1,46 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="content_preferences_category"
+        app:title="Content Recommendation Settings">
+
+        <SwitchPreferenceCompat
+            app:key="Paid Content"
+            app:title="Paid Content"/>
+
+        <SwitchPreferenceCompat
+            app:key="Shows"
+            app:title="Shows"/>
+
+        <SwitchPreferenceCompat
+            app:key="Movies"
+            app:title="Movies"/>
+
+        <SwitchPreferenceCompat
+            app:key="Books"
+            app:title="Books"/>
+
+        <SwitchPreferenceCompat
+            app:key="Podcasts"
+            app:title="Podcasts"/>
+
+        <SwitchPreferenceCompat
+            app:key="YouTube Channels"
+            app:title="YouTube Channels"/>
+
+        <SwitchPreferenceCompat
+            app:key="Video Games"
+            app:title="Video Games"/>
+
+        <SwitchPreferenceCompat
+            app:key="Animated"
+            app:title="Animated"/>
+
+        <SwitchPreferenceCompat
+            app:key="Mature Content"
+            app:title="Mature Content"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

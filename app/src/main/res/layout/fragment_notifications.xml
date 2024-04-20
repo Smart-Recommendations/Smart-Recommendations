@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edittext_gpt_api_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="GPT API Token" />
+
+    <CheckBox
+        android:id="@+id/checkbox_shows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shows" />
+
+    <CheckBox
+        android:id="@+id/checkbox_movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movies" />
+
+    <CheckBox
+        android:id="@+id/checkbox_youtube_channels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YouTube Channels" />
+
+    <CheckBox
+        android:id="@+id/checkbox_video_games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Games" />
+
+    <CheckBox
+        android:id="@+id/checkbox_books"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Books" />
+
+    <CheckBox
+        android:id="@+id/checkbox_podcasts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podcasts" />
+
+    <CheckBox
+        android:id="@+id/checkbox_paid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paid" />
+
+    <CheckBox
+        android:id="@+id/checkbox_animated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animated" />
+
+    <CheckBox
+        android:id="@+id/checkbox_mature_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mature Content" />
+
+</LinearLayout>

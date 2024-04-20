@@ -8,8 +8,9 @@ An app for Android that enables users to receive entertainment recommendations b
 1. URL to 'Official Download' -> [apk](https://github.com/Smart-Recommendations/Smart-Recommendations/releases/tag/v0.0.2) 
    
 ## How to Use
-1. Add shows you have watched in the past and shows you want to watch.
-2. The app will send a prompt to an LLM to find media you might like to watch.
+1. On the user page, add information about media you like, dislike and any additional information about you that you want to affect your recommendations.
+2. Go to the settings page, input a GPT API key and toggle any preferences for the type of recommendations you want.
+3. Go to the recommendations page and press the button.
 
    
 ________________________________________________________________________________________________

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <!-- Label for Liked Media -->
+    <TextView
+        android:id="@+id/label_liked_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liked Media"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Input for Liked Media -->
+    <EditText
+        android:id="@+id/input_liked_media"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter liked media"
+        app:layout_constraintTop_toBottomOf="@id/label_liked_media"
+        app:layout_constraintStart_toStartOf="@id/label_liked_media"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Label for Disliked Media -->
+    <TextView
+        android:id="@+id/label_disliked_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disliked Media"
+        app:layout_constraintTop_toBottomOf="@id/input_liked_media"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Input for Disliked Media -->
+    <EditText
+        android:id="@+id/input_disliked_media"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter disliked media"
+        app:layout_constraintTop_toBottomOf="@id/label_disliked_media"
+        app:layout_constraintStart_toStartOf="@id/label_disliked_media"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Label for About Me -->
+    <TextView
+        android:id="@+id/label_about_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        app:layout_constraintTop_toBottomOf="@id/input_disliked_media"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <!-- Input for About Me -->
+    <EditText
+        android:id="@+id/input_about_me"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter anything about you that may help recommendations for media to enjoy!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/label_about_me"
+        app:layout_constraintTop_toBottomOf="@id/label_about_me"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

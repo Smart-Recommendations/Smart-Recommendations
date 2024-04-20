@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:id="@+id/recommendations"
-        android:title="@string/recommendations"
-        android:icon="@drawable/baseline_local_movies_24"/>
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_person_outline_24"
+        android:title="User" />
+
     <item
-        android:id="@+id/towatch"
-        android:title="@string/menu_towatch"
-        android:icon="@drawable/baseline_local_movies_24"/>
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Recommendations" />
+
     <item
-        android:id="@+id/watched"
-        android:title="@string/watched"
-        android:icon="@drawable/baseline_local_movies_24"/>
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/baseline_app_settings_alt_24"
+        android:title="Settings" />
+
 </menu>

@@ -13,9 +13,9 @@ An app for Android that enables users to receive entertainment recommendations b
 3. Go to the recommendations page and press the button.
 
 ## INFO
-MSU Denver, Spring 2024, CS-4360-002 Senior project
-Instructor: Jody Paul
-Group: "Smart Recommendations" - M. Lee, J. Arellano Estrada, C. Solis, J. Luke, S. Cloud, A. Comeau
+MSU Denver, Spring 2024, CS-4360-002 Senior project  
+Instructor: Jody Paul  
+Group: "Smart Recommendations" - M. Lee, J. Arellano Estrada, C. Solis, J. Luke, S. Cloud, A. Comeau  
 
 
 

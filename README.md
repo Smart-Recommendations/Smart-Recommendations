@@ -8,9 +8,16 @@ An app for Android that enables users to receive entertainment recommendations b
 1. URL to 'Official Download' -> [apk](https://github.com/Smart-Recommendations/Smart-Recommendations/releases/tag/v1.0.0) 
    
 ## How to Use
-1. On the user page, add information about media you like, dislike and any additional information about you that you want to affect your recommendations.
-2. Go to the settings page, input a GPT API key and toggle any preferences for the type of recommendations you want.
+1. On the user page, add information about media you like, dislike, and any additional information about you that you want to affect your recommendations.
+2. Go to the settings page, input a GPT API key, and toggle any preferences for the type of recommendations you want.
 3. Go to the recommendations page and press the button.
+
+## INFO
+MSU Denver, Spring 2024, CS-4360-002 Senior project
+Instructor: Jody Paul
+Group: "Smart Recommendations" - M. Lee, J. Arellano Estrada, C. Solis, J. Luke, S. Cloud, A. Comeau
+
+
 
    
 ________________________________________________________________________________________________
